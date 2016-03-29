@@ -2,7 +2,8 @@
 
 
 void CreateApplicationInstance() {
-	new Sample("Blank Window", 400, 400);
+//	new Sample("Blank Window", 400, 400);
+	new Sample();
 }
 
 
@@ -19,11 +20,20 @@ void Sample::finalize() {
 
 
 void Sample::update(float dt) {
+
 }
 
 
 void Sample::render() {
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	glFlush();
+	//glFlush();
 }
+
+Sample::Sample() :Application("Blank Window", 400, 400)
+{
+
+}
+
+
+

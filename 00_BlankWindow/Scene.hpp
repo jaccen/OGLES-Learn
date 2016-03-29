@@ -1,13 +1,13 @@
 #ifndef SAMPLE_HPP
 #define SAMPLE_HPP
 
-#include <Application.hpp>
+#include <Application.h>
 
 
 class Sample final : public Application {
 public:
 	using Application::Application;
-
+	Sample();
 public:
 	virtual bool initialize() override;
 	virtual void finalize() override;
