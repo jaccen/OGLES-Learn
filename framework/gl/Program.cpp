@@ -1,4 +1,4 @@
-#include "Program.hpp"
+#include "Program.h"
 
 
 Program::Program(Shader& vertexShader, Shader& fragmentShader) {

@@ -1,15 +1,15 @@
 
 set(COMMON_SOURCE
-	Util.hpp
+	Util.h
 	Util.cpp
-	Application.hpp
+	Application.h
 	Application.cpp
-	PlatformWindows.hpp
+	PlatformWindows.h
 	PlatformWindows.cpp
 	
-	gl/Program.hpp
+	gl/Program.h
 	gl/Program.cpp
-	gl/Shader.hpp
+	gl/Shader.h
 	gl/Shader.cpp
 )
 
